@@ -1,0 +1,198 @@
+Cosmetic Commands
+
+!skin - Sets the outfit of the client using the outfits name.
+Usage: !skin <skin name>
+Example: !skin Nog Ops
+
+!backpack - Sets the backpack of the client using the backpacks name.
+Usage: !backpack <backpack name>
+Example: !backpack Black Shield
+
+!emote - Sets the emote of the client using the emotes name.
+Usage: !emote <emote name>
+Example: !emote Windmill Floss
+
+!pickaxe - Sets the pickaxe of the client using the pickaxe name.
+Usage: !pickaxe <pickaxe name>
+Example: !pickaxe Raider's Revenge
+
+!pet - Sets the pet (backpack) of the client using the pets name.
+Usage: !pet <pet name>
+Example: !pet Bonesy
+
+!emote - Sets the emoji of the client using the emojis name.
+Usage: !emoji <emoji name>
+Example: !emoji Snowball
+
+!variants - Creates the variants list by the variants you set.
+Usage: !variants <CID> <style type> <integer>
+Example: !variants CID_030_Athena_Commando_M_Halloween clothing_color 1
+
+!contrail - Sets the contrail of the client using the contrail name.
+Usage: !contrail <contrail name>
+Example: !contrail Holly and Divey
+
+!purpleskull - Sets the outfit of the client to Purple Skull Trooper.
+Usage: !purpleskull
+Example: !purpleskull
+
+!pinkghoul - Sets the outfit of the client to Pink Ghoul Trooper.
+Usage: !pinkghoul
+Example: !pinkghoul
+
+!purpleportal - Sets the backpack of the client to Purple Ghost Portal.
+Usage: !purpleportal
+Example: !purpleportal
+
+!checkeredrenegade - Sets the outfit of the client to Checkered Renegade.
+Usage: !checkeredrenegade
+Example: !checkeredrenegade
+
+CID_ - Sets the outfit of the client using CID.
+Usage: <CID>
+Example: CID_047_Athena_Commando_F_HolidayReindeer
+
+BID_ Sets the backpack of the client using BID.
+Usage: <BID>
+Example: BID_023_Pinkbear
+
+PICKAXE_ID_ - Sets the pickaxe of the client using PICKAXE_ID.
+Usage: <PICKAXE_ID>
+Example: Pickaxe_ID_073_Balloon
+
+EID_ - Sets the emote of the client using EID.
+Usage: <EID>
+Example: EID_Floss
+
+PetCarrier_ - Sets the pet of the client using PetCarrier_.
+Usage: <PetCarrier_>
+Example: PetCarrier_002_Chameleon
+
+Emoji_ - Sets the emoji of the client using Emoji_.
+Usage: <Emoji_>
+Example: Emoji_PeaceSign
+
+Trails_ - Sets the contrail of the client using Trails_.
+Usage: <Trails_>
+Example: Trails_ID_075_Celestial
+
+!stop - Clears/stops the emote currently playing.
+Usage: !stop
+Example: !stop
+
+!legacypickaxe - Sets the pickaxe of the client using Pickaxe_
+Usage: !legacypickaxe <pickaxe>
+Example: !legacypickaxe HalloweenScythe
+
+!point - Sets pickaxe using PICKAXE_ID or display name & does 'Point it Out'
+Usage: !point <PICKAXE_ID>
+Example: !point Pickaxe_ID_029_Assassin
+
+!copy - Copies the cosmetic loadout of the defined user. If user is left blank, the message author will be used.
+Usage: !copy <name [optional]>
+Example: !copy razuLOL
+
+!hologram - Shortcut for equipping the skin CID_VIP_Athena_Commando_M_GalileoGondola_SG.
+Usage: !hologram
+Example: !hologram
+
+!ninja - Shortcut for equipping the skin CID_605_Athena_Commando_M_TourBus.
+Usage: !ninja
+Example: !ninja
+
+!ponpon - Shortcut for equipping the emote EID_TourBus.
+Usage: !ponpon
+Example: !ponpon
+
+!enlightened - Sets the enlightened value of a skin (used for skins such as glitched Scratch or Golden Peely).
+Usage: !enlightened <cid> <season> <level>
+Example: !enlightened CID_701_Athena_Commando_M_BananaAgent 2 350
+
+!goldenpeely - Sets the outfit of the client to Golden Peely (shortcut for!enlightened CID_701_Athena_Commando_M_BananaAgent 2 350).
+Usage: !goldenpeely Example: !goldenpeely
+
+!random - Randomly finds & equips a skin.
+Usage: !random
+Example: !random
+
+!nobackpack - Clears the currently set backpack.
+Usage: !nobackpack
+Example: !nobackpack
+
+!nopet - Clears the currently set pet.
+Usage: !nopet
+Example: !nopet
+
+!nocontrail - Clears the currently set contrail.
+Usage: !nocontrail
+Example: !nocontrail
+
+Party Commands
+
+!help - Displays a link to this webpage.
+Usage: !help
+Example: !help
+
+!ready - Sets the readiness of the client to ready.
+Usage: !ready
+Example: !ready
+
+!unready/!sitin - Sets the readiness of the client to unready.
+Usage: !unready
+Example: !unready
+
+!sitout - Sets the readiness of the client to SittingOut.
+Usage: !sitout
+Example: !sitout
+
+!bp - Sets the battlepass info of the client.
+Usage: !bp <tier>
+Example: !bp 100
+
+!banner - Sets the banner of the client.
+Usage: !banner <icon> <colour> <level>
+!banner BRSeason01 defaultcolor15 100
+
+!echo - Sends message to party chat with the given content.
+Usage: !echo <message>
+Example: !echo true lulw
+
+!status - Sends and sets the status.
+Usage: !status <text>
+Example: !status Presence Unknown
+
+!leave - Leaves the current party.
+Usage: !leave
+Example: !leave
+
+!kick - Kicks the inputted user.
+Usage: !kick <username>
+Example: !kick Cxnyaa
+
+Playlist_ - Sets the lobbies selected playlist.
+Usage: <Playlist ID>
+Example: Playlist_Tank_Solo
+
+!platform - Sets the clients platform.
+Usage: !platform <platform>
+Example: !platform PSN
+
+!gift - Try it yourself to find out what happens.
+Usage: !gift <content>
+Example: !gift is a joke command.
+
+!matchmakingcode - Sets the parties custom matchmaking code.
+Usage: !matchmakingcode <code>
+Example: !matchmakingcode solo123
+
+!match - Sets the client to the "In Match" state.
+Usage: !match <players remaining>
+Example: !match 69
+
+!lobby - Sets the client to normal pre-game lobby state.
+Usage: !lobby
+Example: !lobby
+
+!join - Joins the party of the defined friend. If friend is left blank, the message author will be used.
+Usage: !join <name [optional]>
+Example: !join razuLOL
